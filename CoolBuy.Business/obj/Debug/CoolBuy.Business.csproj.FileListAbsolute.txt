@@ -1,0 +1,4 @@
+C:\Code\test\CoolBuy\CoolBuy.Business\bin\Debug\CoolBuy.Business.dll
+C:\Code\test\CoolBuy\CoolBuy.Business\bin\Debug\CoolBuy.Business.pdb
+C:\Code\test\CoolBuy\CoolBuy.Business\obj\Debug\CoolBuy.Business.dll
+C:\Code\test\CoolBuy\CoolBuy.Business\obj\Debug\CoolBuy.Business.pdb
