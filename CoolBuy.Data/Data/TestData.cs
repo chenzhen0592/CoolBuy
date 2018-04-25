@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using Dapper;
 
-namespace CoolBuy.Data.Data
+namespace CoolBuy.Data
 {
-    public class Product:DataAccessBase
+    public class TestData:DataAccessBase
     {
-        public int GetProduct(int id)
+        public string GetName()
         {
             DynamicParameters param = new DynamicParameters();
-            param.Add("@Id", id);
-            return DataBase.ExecuteSingle<int>("GetProduct", param);
+            
+            return DataBase.ExecuteSingle<string>("select name from test", param);
 
         }
     }
